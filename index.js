@@ -24,7 +24,7 @@ app.get('/api/bookings', gelAllPasengerBookings )
 
 app.put('/api/bookings/:id', updatebookings)
 
-
+app.patch('/api/bookings/:id', patchBooking)
 
 app.delete('/api/bookings/:id', cancelBookings)
 
